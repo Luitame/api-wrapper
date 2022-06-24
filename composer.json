@@ -1,0 +1,19 @@
+{
+  "name": "luitame/api-wrapper",
+  "description": "A wrapper that encapsulates the communication to a remote API",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Luitame\\ApiWrapper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Luítame de Oliveira"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
